@@ -5,7 +5,7 @@ import 'login_page.dart';
 
 void main() => runApp(MyApp());
 
- //WidgetsFlutterBinding.ensureInitialized();
+//WidgetsFlutterBinding.ensureInitialized();
 //await DatabaseConnection.connect();
 class MyApp extends StatelessWidget {
   @override
