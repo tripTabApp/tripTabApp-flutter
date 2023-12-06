@@ -1,53 +1,23 @@
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'bill_list.dart';
+import 'login_page.dart';
 
-//1111
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
+ //WidgetsFlutterBinding.ensureInitialized();
+//await DatabaseConnection.connect();
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => MyAppState(),
+      create: (context) => BillsList(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: 'Bills App',
         theme: ThemeData(
-          useMaterial3: true,
-          colorScheme:
-              ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 34, 63, 255)),
+          primarySwatch: Colors.lightGreen,
         ),
-        home: MyHomePage(),
-      ),
-    );
-  }
-}
-
-class MyAppState extends ChangeNotifier {
-  var current = WordPair.random();
-}
-
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-
-    return Scaffold(
-      body: Column(
-        children: [
-          Text('A a random ide:'),
-          Text(appState.current.asLowerCase),
-          ElevatedButton(
-            onPressed: () {
-              print('button pressed!');
-            },
-            child: Text('Next'),
-          ),
-        ],
+        home: LoginPage(),
       ),
     );
   }

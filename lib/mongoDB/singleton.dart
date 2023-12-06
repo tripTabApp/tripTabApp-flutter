@@ -1,5 +1,3 @@
-//We use Singleton to connect to the database
-
 class Singleton {
   static Singleton? _instance; // instance of this class
 
