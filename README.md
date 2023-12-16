@@ -1,23 +1,20 @@
-# triptab_app
+# Introduction
+Our program is designed to manage the budget allocated by your company for its employees and calculate the increase or decrease in the budget for travel related to courses and conferences.
 
-A new Flutter project.
+The program aims to improve financial planning and track expenses associated with travel and attendance.
 
-## Getting Started
+Initially, you will enter the company's available budget for each employee or the team as a whole. You can specify the total budget for a specific period, such as a month, quarter, or year.
 
-This project is a starting point for a Flutter application.
+Then, when an employee wishes to attend a training course or conference, they will enter the event details and expected costs into the program. These costs will be reviewed against the available budget for the employee or team.
 
-A few resources to get you started if this is your first Flutter project:
+Based on this information, the program will calculate the increase or decrease in the available travel budget. If the expected costs for the event exceed the budget, the program will indicate the deficit. Conversely, if the costs are lower than the budget, the program will show a surplus.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This way, the program helps you monitor and manage the budget for travel and attendance at courses and conferences, ensuring efficient allocation of resources within the company.
 
 ## Group Members
 - Ahmad Kutubkhanah 1936873
 - Saud Hamed Alharbi 1939123
+- Feras Sahhaf 2037382
  
  ## Screen Capture
  Here some screen capture from our project:
