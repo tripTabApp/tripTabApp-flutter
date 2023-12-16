@@ -21,5 +21,4 @@ samples, guidance on mobile development, and a full API reference.
  
  ## Screen Capture
  Here some screen capture from our project:
- ![](https://prnt.sc/CgIyibxP0wrf)
- ![](https://prnt.sc/Idz1_JuOTE5l)
+
